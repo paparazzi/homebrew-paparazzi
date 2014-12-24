@@ -2,8 +2,7 @@ require 'formula'
 
 class IvyC < Formula
   homepage "http://www.tls.cena.fr/products/ivy/"
-  #url "https://svn.tls.cena.fr/svn/ivy/ivy-c/trunk", :using => :svn, :revision => 3572
-  url "https://github.com/esden/ivy-c.git", :branch => "some_improvements"
+  url "https://svn.tls.cena.fr/svn/ivy/ivy-c/trunk", :revision => 3626
   #sha1 ""
   version "3.15"
 
